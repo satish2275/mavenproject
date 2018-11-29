@@ -25,7 +25,7 @@
           <groupId>org.apache.maven.plugins</groupId>
          <artifactId>maven-war-plugin</artifactId>
  <configuration>
-         <outputDirectory>/opt/test</outputDirectory>
+         <outputDirectory>/var/jenkins_home/workspace/pipeline1/</outputDirectory>
   </configuration>
   </plugin>
   </plugins>
