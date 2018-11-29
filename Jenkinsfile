@@ -1,4 +1,3 @@
-#! /bin/g
 pipeline 
   {
       agent any
