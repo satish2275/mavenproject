@@ -1,7 +1,11 @@
-
+#! /bin/g
 pipeline 
   {
       agent any
+      
+      tools {
+        maven 'Maven'
+       }
       stages {
           stage('SCM') {
               steps {
